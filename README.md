@@ -6,8 +6,8 @@ The setup is particularly suitable for test scenarios that require a simple Kube
 
 ## Requirements
 
--   Terraform v0.11.8+
--   Hetzner Cloud API Token
+-   [Terraform](https://www.terraform.io/downloads.html) v0.11.8+
+-   [Hetzner Cloud API Token](https://console.hetzner.cloud/projects)
 
 ## Usage
 
@@ -43,7 +43,7 @@ After Terraform has done the work, `kubeconfig` is located in the `creds/` folde
 Thanks to @[s-urbaniak](https://github.com/s-urbaniak) and @ [solidnerd](https://github.com/solidnerd). Please also check out these projects for different setups:
 
 * [https://github.com/s-urbaniak/k8s-hetzner](https://github.com/s-urbaniak/k8s-hetzner)
-* [https://github.com/solidnerd](https://github.com/solidnerd)
+* [https://github.com/solidnerd](https://github.com/solidnerd/terraform-k8s-hcloud)
 
 ## License
 
