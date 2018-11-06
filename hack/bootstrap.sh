@@ -3,6 +3,9 @@ set -eu
 
 sleep 30
 
+# use noninteractive to disable prompts during apt install
+export DEBIAN_FRONTEND=noninteractive
+
 apt-get -qq update && apt-get -qq upgrade -y
 apt-get install \
   apt-transport-https \
