@@ -1,11 +1,11 @@
 variable "ssh_public_key" {
   description = "SSH public key to be copied on machines"
-  default = "~/.ssh/haw.pub"
+  default = "~/.ssh/hetzner.pub"
 }
 
 variable "ssh_private_key" {
   description = "SSH private key to be used to log into machines"
-  default = "~/.ssh/haw"
+  default = "~/.ssh/hetzner"
 }
 
 variable "node_image" {
