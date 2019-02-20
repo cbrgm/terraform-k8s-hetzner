@@ -1,7 +1,7 @@
 #!/bin/bash
 set -eu
 
-sleep 60
+sleep 30
 
 # use noninteractive to disable prompts during apt install
 export DEBIAN_FRONTEND=noninteractive
@@ -25,7 +25,7 @@ apt-get update -y
 sleep 20
 
 # apt-cache madison docker-ce
-apt-get install -y docker-ce=18.03.1~ce~3-0~ubuntu
+apt-get install -y docker-ce
 
 # Disable swap
 swapoff -a
